@@ -1,0 +1,48 @@
+{
+    "python_operator": {
+      "class": "airflow.operators.python.PythonOperator"
+    },
+    "bash_operator": {
+      "class": "airflow.operators.bash.BashOperator"
+    },
+    "dummy_operator": {
+      "class": "airflow.operators.dummy.DummyOperator"
+    },
+    "emr_create_job_flow_operator": {
+      "class": "airflow.providers.amazon.aws.operators.emr.EmrCreateJobFlowOperator"
+    },
+    "emr_terminate_job_flow_operator": {
+      "class": "airflow.providers.amazon.aws.operators.emr.EmrTerminateJobFlowOperator"
+    },
+    "emr_step_sensor": {
+      "class": "airflow.providers.amazon.aws.sensors.emr.EmrStepSensor"
+    },
+    "emr_add_steps_operator": {
+      "class": "airflow.providers.amazon.aws.operators.emr.EmrAddStepsOperator"
+    },
+    "trigger_child_dag": {
+      "class": "bytecodeairflow.custom_operators.custom_operators.TriggerAndWaitForDAGOperator"
+    },
+    "trigger_multi_dag": {
+      "class": "bytecodeairflow.custom_operators.custom_operators.TriggerMultiDagRunOperator"
+    },
+    "trigger_multi_dag_with_wait": {
+      "class": "bytecodeairflow.custom_operators.custom_operators.TriggerMultiDagRunWithWaitOperator"
+    },
+    "branch_python_operator": {
+      "class": "airflow.operators.python.BranchPythonOperator"
+    },
+    "short_circuit_operator": {
+      "class": "airflow.operators.python.ShortCircuitOperator"
+    },
+    "s3_key_sensor": {
+      "class": "airflow.providers.amazon.aws.sensors.s3.S3KeySensor"
+    },
+    "jenkins_build_sensor": {
+      "class": "airflow.providers.jenkins.sensors.jenkins.JenkinsBuildSensor"
+    },
+    "jenkins_job_trigger_operator": {
+      "class": "airflow.providers.jenkins.operators.jenkins_job_trigger.JenkinsJobTriggerOperator"
+    }
+  }
+  

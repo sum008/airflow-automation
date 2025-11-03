@@ -1,0 +1,14 @@
+{
+   "local": {
+   "connection_url" : "mongodb://sumit:sumit123@docdb-2024-06-26-08-32-24.cluster-cduks4mscct2.us-east-2.docdb.amazonaws.com:27017/?tls=true&tlsCAFile=/home/sumit/global-bundle.pem&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false"
+},
+   "dev": {
+   "connection_url" : "mongodb://sumit:sumit123@docdb-2024-06-26-08-32-24.cluster-cduks4mscct2.us-east-2.docdb.amazonaws.com:27017/?tls=true&tlsCAFile=global-bundle.pem&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false"
+},
+   "uat": {
+   "connection_url" : "mongodb://airflow-readonly-user:readonlyuser@docdbuatairflow.cluster-c3asqa8mac52.us-east-1.docdb.amazonaws.com:27017/?directConnection=true&tls=true&tlsCAFile=global-bundle.pem"
+},
+   "prod": {
+   "connection_url" : "mongodb://sumit:sumit123@docdb-2024-06-26-08-32-24.cluster-cduks4mscct2.us-east-2.docdb.amazonaws.com:27017/?tls=true&tlsCAFile=global-bundle.pem&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false"
+}
+}
